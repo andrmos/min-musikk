@@ -2,7 +2,6 @@ body {
     background-color: #1f1f1f;
 }
 
-
 h1 { 
     margin-bottom: 3rem;
 
@@ -41,6 +40,18 @@ h2 {
     margin-bottom: 3rem;
     width: 100%;
     height: 700px;
+}
+
+.counter {
+    position: sticky;
+    color: white;
+
+    bottom: 1rem;
+    left: 3rem;
+
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-family: 'Gajraj One Regular';
 }
 
 @media screen and (min-device-width: 1000px) {
