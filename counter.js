@@ -17,7 +17,7 @@ const incrementCount = async () => {
 };
 
 const setValue = (num) => {
-    document.getElementById("visit-count").innerText = `Visitors: ${num}`;
+    document.getElementById("visit-count").innerText = `${num}`;
 };
 
 if (localStorage.getItem("hasVisited") == null) {
