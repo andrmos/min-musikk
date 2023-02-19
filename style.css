@@ -8,11 +8,12 @@ body {
 }
 
 h1 { 
-    margin-bottom: 0rem;
+    margin-bottom: 2rem;
 
     color: #ffffff;
     font-family: 'Gajraj One Regular';
     font-size: 5rem;
+    line-height: 5rem;
 }
 
 .lists {
