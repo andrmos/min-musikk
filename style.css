@@ -1,25 +1,44 @@
 body {
     background-color: #1f1f1f;
+    overflow-x: hidden;
+
+}
+*{
+    box-sizing: border-box;
+}
+main{
+    display: flex;
+    flex-direction: column;
 }
 
+.webgl{
+    position: fixed;
+    inset: 0;
+    z-index: -11;
+
+
+}
 h1 { 
     color: #ffffff;
     font-family: 'Gajraj One Regular';
-
-    font-size: 3rem;
-    line-height: 3rem;
+    font-weight: 500;
+    font-size: 2.35rem;
+    line-height: 150%;
 }
 
 h2 {
     color: #ffffff;
     font-family: 'Gajraj One Regular';
-
+    font-weight: 400;
     font-size: 2rem;
     margin-top: 3rem;
 }
 
 .container {
     margin: 1rem;
+    z-index: 2;
+    visibility: hidden;
+   
 }
 
 .favorites {
@@ -60,10 +79,12 @@ h2 {
         margin-bottom: 3rem;
         font-size: 5rem;
         line-height: 5rem;
+        font-weight: bold;
     }
 
     h2 {
         font-size: 2.2rem;
+        font-weight: 500;
     }
 
     .container {
